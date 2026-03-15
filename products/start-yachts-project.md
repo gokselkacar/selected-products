@@ -47,6 +47,19 @@ Start Yachts - Boat Marketplace combines scraping workflows, a Next.js frontend,
 - CDK-managed infrastructure spanning application, backend, and environment setup.
 - Data pipeline layer for collecting and shaping listing information before presentation.
 
+## Architecture Diagram
+
+```mermaid
+flowchart TD
+    S[Listing Scrapers] --> P[Structured Listing Data]
+    P --> W[Next.js Marketplace Frontend]
+    W --> A[Serverless API Layer]
+    A --> D[(Marketplace Database)]
+    A --> M[Media and Asset Delivery]
+    A --> I[Authentication Services]
+    A --> C[CDK Managed Infrastructure]
+```
+
 ## Highlights
 
 - End-to-end architecture spanning data collection, application delivery, and cloud infrastructure.

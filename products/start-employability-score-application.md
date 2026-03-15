@@ -54,6 +54,21 @@ START Employability Score Application is a cross-platform employability testing 
 - Shared monorepo architecture with common UI and taxonomy packages.
 - Infrastructure managed through AWS CDK with application data flowing through GraphQL APIs.
 
+## Architecture Diagram
+
+```mermaid
+flowchart TD
+    U[Users] --> M[Mobile App]
+    U --> W[Web App]
+    M --> G[AppSync GraphQL API]
+    W --> G
+    G --> L[Lambda Resolvers]
+    G --> I[Cognito Authentication]
+    L --> D[(PostgreSQL)]
+    L --> S[S3 and CloudFront]
+    L --> N[Messaging and Notification Services]
+```
+
 ## Highlights
 
 - Cross-platform delivery through mobile and web applications.

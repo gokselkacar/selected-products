@@ -55,6 +55,18 @@ START Canada Marketing Site is a Next.js platform designed to present employabil
 - File-based content management using MDX and JSON manifests instead of a CMS dependency.
 - Docker and Nginx-ready deployment setup for consistent production delivery.
 
+## Architecture Diagram
+
+```mermaid
+flowchart TD
+    U[Visitor Browser] --> P[Next.js Pages and React Components]
+    P --> A[API Routes]
+    P --> C[MDX and JSON Content]
+    A --> V[Validation and Rate Limiting]
+    A --> E[Email Delivery Service]
+    C --> G[Blog and Gallery Content]
+```
+
 ## Highlights
 
 - Multi-page marketing experience with projects, gallery, contact, privacy, and terms pages.

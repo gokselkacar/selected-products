@@ -54,6 +54,18 @@ START Jobs - Career Readiness Events Platform is a web application for managing 
 - Email delivery and confirmation flows integrated through PHPMailer-based messaging.
 - Deployment and maintenance scripts to support staging and production operations.
 
+## Architecture Diagram
+
+```mermaid
+flowchart TD
+    U[User Browser] --> F[HTML, TailwindCSS, and JavaScript Frontend]
+    F --> A[PHP API Layer]
+    A --> D[(MySQL Database)]
+    A --> M[Email and Confirmation Service]
+    A --> R[Registration and Resume Workflows]
+    A --> C[Calendar Invite Generation]
+```
+
 ## Highlights
 
 - Event browsing, registration, and email confirmation workflows.
