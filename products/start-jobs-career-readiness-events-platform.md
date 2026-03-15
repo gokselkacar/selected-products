@@ -10,6 +10,19 @@ Live event and registration platform built for START Canada.
 
 START Jobs - Career Readiness Events Platform is a web application for managing career readiness bootcamps, webinars, and workshops, including registration, authentication, and email confirmations.
 
+## Product Scope
+
+- Event discovery and registration platform for START Canada's workshops, webinars, and bootcamps.
+- Combines public event browsing with authenticated user account functionality.
+- Supports both participant-facing flows and internal event management workflows.
+
+## User Experience
+
+- Browse upcoming events with filtering by event type and schedule.
+- Register for sessions, receive confirmations, and manage attendance history.
+- Access account flows including sign-up, login, password reset, and verification.
+- Download calendar invites and manage registrations through a personal dashboard.
+
 ## My Contribution
 
 - Developed and maintained the event experience across frontend and backend flows.
@@ -27,12 +40,32 @@ START Jobs - Career Readiness Events Platform is a web application for managing 
 - Apache
 - PHPMailer
 
+## Product Capabilities
+
+- Event registration with confirmation email flow and attendance tracking.
+- User accounts with verification, password recovery, and registration history.
+- Resume upload support and mentor application workflows.
+- Admin-side event CRUD, draft management, attendee visibility, and capacity handling.
+
+## Architecture Overview
+
+- HTML and TailwindCSS frontend paired with a PHP backend and MySQL data layer.
+- API endpoints for authentication, event operations, newsletter flows, and user registration data.
+- Email delivery and confirmation flows integrated through PHPMailer-based messaging.
+- Deployment and maintenance scripts to support staging and production operations.
+
 ## Highlights
 
 - Event browsing, registration, and email confirmation workflows.
 - User authentication, password reset, newsletter subscription, and resume upload support.
 - Admin event management with draft states, attendee views, and capacity handling.
 - Deployment scripts and environment separation for staging and production.
+
+## Delivery Notes
+
+- Built to support real operational event publishing rather than static event promotion pages.
+- Includes both participant and internal admin workflows in a single platform.
+- Structured to support staged environments, operational maintenance, and ongoing event updates.
 
 ## Repository Note
 
