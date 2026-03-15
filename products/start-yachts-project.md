@@ -18,6 +18,13 @@ Start Yachts - Boat Marketplace combines scraping workflows, a Next.js frontend,
 - Marketplace-style platform architecture connecting listing data, media delivery, and application routes.
 - Unified dashboard direction on the frontend rather than separate legacy buyer / seller interfaces.
 
+## Key Flows
+
+- Listing ingestion flow from scrapers into structured marketplace data.
+- Marketplace browsing flow from listing discovery to detail consumption in the web app.
+- Application flow from frontend requests into serverless APIs and backend data services.
+- Environment and release flow through infrastructure-managed deployment paths.
+
 ## My Contribution
 
 - Worked across frontend, backend, and infrastructure layers of the platform.
@@ -59,6 +66,12 @@ flowchart TD
     A --> I[Authentication Services]
     A --> C[CDK Managed Infrastructure]
 ```
+
+## Why This Architecture
+
+- The marketplace depends on both application delivery and reliable listing ingestion, so the stack needs more than a standalone frontend.
+- Serverless backend services keep the API layer flexible while infrastructure-as-code keeps environment setup repeatable.
+- Separating ingestion, application, and infrastructure concerns makes it easier to evolve search, media, and release workflows over time.
 
 ## Highlights
 

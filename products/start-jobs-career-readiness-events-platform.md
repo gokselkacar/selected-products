@@ -23,6 +23,13 @@ START Jobs - Career Readiness Events Platform is a web application for managing 
 - Access account flows including sign-up, login, password reset, and verification.
 - Download calendar invites and manage registrations through a personal dashboard.
 
+## Key Flows
+
+- Event discovery flow from public event listings into single-event registration pages.
+- Account flow covering sign-up, verification, login, password reset, and session-backed access.
+- Registration flow with confirmation messaging and calendar invite delivery.
+- Admin and mentor workflows for drafting, reviewing, publishing, and managing events.
+
 ## My Contribution
 
 - Developed and maintained the event experience across frontend and backend flows.

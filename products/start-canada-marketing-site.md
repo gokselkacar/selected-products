@@ -23,6 +23,13 @@ START Canada Marketing Site is a Next.js platform designed to present employabil
 - Gallery experience with category filters and lightbox interactions.
 - Contact journey with purpose-based routing and support / newsletter flows.
 
+## Key Flows
+
+- Program discovery flow from landing page to product-specific content and proof points.
+- Contact flow from intent selection to validated form submission and routed follow-up.
+- Newsletter and support flows through modal and page-level entry points.
+- Gallery browsing flow with filtered exploration of events, partners, and product content.
+
 ## My Contribution
 
 - Built and structured the application using the Next.js App Router and TypeScript.

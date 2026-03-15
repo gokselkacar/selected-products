@@ -25,6 +25,13 @@ START Employability Score Application is a cross-platform employability testing 
 - Timed quiz sessions with progress tracking, resume support, and results analysis.
 - Career-facing dashboard features such as attempt history, performance review, and recommendation flows.
 
+## Key Flows
+
+- Onboarding and authentication flow across native and web clients.
+- Assessment flow from category selection through timed quiz play and scored results.
+- Results and analytics flow turning performance into strengths, gaps, and next-step guidance.
+- Career support flow connecting assessment outcomes to recommendations, dashboards, and supporting documents.
+
 ## My Contribution
 
 - Contributed to product and technical direction across the shared application experience.
@@ -68,6 +75,12 @@ flowchart TD
     L --> S[S3 and CloudFront]
     L --> N[Messaging and Notification Services]
 ```
+
+## Why This Architecture
+
+- A shared backend and monorepo structure keeps product logic aligned across mobile and web.
+- GraphQL and shared domain packages reduce duplication across quiz, profile, and analytics experiences.
+- AWS-managed building blocks support secure auth, file handling, notifications, and scalable assessment delivery.
 
 ## Highlights
 
