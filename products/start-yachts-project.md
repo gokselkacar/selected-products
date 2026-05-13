@@ -16,6 +16,10 @@ Start Yachts - Boat Marketplace combines scraping workflows, a Next.js frontend,
 | --- | --- |
 | ![Start Yachts boats for sale page](../assets/screenshots/start-yachts-project/04-boats-for-sale.webp) | ![Start Yachts service categories](../assets/screenshots/start-yachts-project/05-service-categories.webp) |
 
+| Listing Photos | Broker Contact Flow |
+| --- | --- |
+| ![Start Yachts listing photo gallery](../assets/screenshots/start-yachts-project/06-listing-photo-gallery.webp) | ![Start Yachts listing broker contact flow](../assets/screenshots/start-yachts-project/07-listing-broker-contact.webp) |
+
 ## Product Scope
 
 - Marketplace-oriented product for boat and yacht listings.
