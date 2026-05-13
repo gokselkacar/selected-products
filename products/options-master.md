@@ -39,10 +39,18 @@ Options Master is a private research product for studying options setups, compar
 - Next.js
 - React
 - TypeScript
-- Vitest
-- ESLint
+- Server-side market-data request path
 - Better SQLite3
 - Tesseract.js
+- Vitest
+- ESLint
+
+## Technical Focus
+
+- Keeps quote retrieval behind a server-side boundary instead of exposing provider logic directly in the browser.
+- Separates confirmed broker evidence from disconnected or unavailable data providers.
+- Uses OCR assistance for screenshot interpretation while still treating user confirmation as the source of truth.
+- Preserves a research-only workflow by avoiding trade execution and avoiding generated live recommendations.
 
 ## Product Capabilities
 
@@ -82,6 +90,7 @@ flowchart TD
 
 - Built as a private product because the source includes finance-adjacent workflows and product assumptions.
 - Public presentation focuses on product thinking, UX boundaries, and architecture instead of exposing source code.
+- Validation includes test, lint, and build gates before source changes are published to the private repository.
 
 ## Repository Note
 

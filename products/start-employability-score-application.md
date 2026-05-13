@@ -45,7 +45,20 @@ START Employability Score Application is a cross-platform employability testing 
 - Expo
 - Next.js
 - React
-- AWS
+- TypeScript
+- AWS Cognito
+- AWS AppSync
+- AWS Lambda
+- PostgreSQL
+- S3 and CloudFront
+- AWS CDK
+
+## Technical Focus
+
+- Shared product model across mobile and web so assessment behavior stays aligned between clients.
+- GraphQL API layer for quiz, profile, taxonomy, analytics, and document workflows.
+- Cognito-backed authentication with cloud storage for user files and supporting assets.
+- CDK-managed infrastructure for repeatable environment setup and deployment.
 
 ## Product Capabilities
 

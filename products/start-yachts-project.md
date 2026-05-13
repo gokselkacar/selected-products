@@ -35,10 +35,20 @@ Start Yachts - Boat Marketplace combines scraping workflows, a Next.js frontend,
 ## Stack
 
 - Next.js
+- React
 - TypeScript
 - AWS Lambda
 - AWS CDK
+- PostgreSQL
+- S3 and CloudFront
 - Data scraping pipelines
+
+## Technical Focus
+
+- Connects listing ingestion, application routes, backend APIs, and infrastructure in one product architecture.
+- Uses serverless services for API behavior while keeping deployment and environment setup managed through CDK.
+- Separates scraping and data-shaping workflows from the frontend marketplace experience.
+- Supports staged operational workflows for development, verification, and release.
 
 ## Product Capabilities
 
