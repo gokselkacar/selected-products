@@ -8,13 +8,13 @@ Seed Jewelry is a Vite and React marketing product for SeedRing, a biodegradable
 
 ## Product Screenshots
 
-| Process Story | Configurator | Planting Map |
+| Hero | Process Story | Configurator |
 | --- | --- | --- |
-| ![Seed Jewelry process section](../assets/screenshots/seed-jewelry/01-process.webp) | ![Seed Jewelry configurator](../assets/screenshots/seed-jewelry/02-configurator.webp) | ![Seed Jewelry planting recommendation map](../assets/screenshots/seed-jewelry/03-map-recommendations.webp) |
+| ![Seed Jewelry homepage hero](../assets/screenshots/seed-jewelry/00-home-hero.webp) | ![Seed Jewelry process section](../assets/screenshots/seed-jewelry/01-process.webp) | ![Seed Jewelry Reef Bloom configurator](../assets/screenshots/seed-jewelry/02-configurator.webp) |
 
-| Science Section |
-| --- |
-| ![Seed Jewelry science section](../assets/screenshots/seed-jewelry/04-science-section.webp) |
+| Planting Map | Science Section | Alternate Configurator |
+| --- | --- | --- |
+| ![Seed Jewelry planting recommendation map](../assets/screenshots/seed-jewelry/03-map-recommendations.webp) | ![Seed Jewelry science section](../assets/screenshots/seed-jewelry/04-science-section.webp) | ![Seed Jewelry Moss Wave configurator](../assets/screenshots/seed-jewelry/05-configurator-moss-wave.webp) |
 
 ## Product Scope
 
