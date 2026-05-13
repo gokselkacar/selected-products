@@ -8,6 +8,24 @@ Career preparation product delivered across mobile and web.
 
 The public demo page shows the product in context on the START Canada marketing site, including mobile app and web app preview videos. The source code remains private.
 
+## Product Screenshots
+
+### Web Application
+
+| Home | Activity Dashboard | Career Dashboard |
+| --- | --- | --- |
+| ![START web app home screen](../assets/screenshots/start-employability-score-application/01-web-home.webp) | ![START web activity dashboard](../assets/screenshots/start-employability-score-application/02-web-activity-dashboard.webp) | ![START web career dashboard](../assets/screenshots/start-employability-score-application/03-web-career-dashboard.webp) |
+
+| Event Hub | Assessment Categories | Role Skill Path |
+| --- | --- | --- |
+| ![START web event hub](../assets/screenshots/start-employability-score-application/04-web-event-hub.webp) | ![START web assessment categories](../assets/screenshots/start-employability-score-application/05-web-assessment-categories.webp) | ![START web role skill path](../assets/screenshots/start-employability-score-application/06-web-role-skills.webp) |
+
+### Mobile Application
+
+| Home | Event Hub | Activity | Business | Technology |
+| --- | --- | --- | --- | --- |
+| <img src="../assets/screenshots/start-employability-score-application/07-mobile-home.webp" alt="START mobile home screen" width="170"> | <img src="../assets/screenshots/start-employability-score-application/08-mobile-event-hub.webp" alt="START mobile event hub" width="170"> | <img src="../assets/screenshots/start-employability-score-application/09-mobile-activity-dashboard.webp" alt="START mobile activity dashboard" width="170"> | <img src="../assets/screenshots/start-employability-score-application/10-mobile-business-assessments.webp" alt="START mobile business assessments" width="170"> | <img src="../assets/screenshots/start-employability-score-application/11-mobile-technology-roles.webp" alt="START mobile technology roles" width="170"> |
+
 ## Summary
 
 START Employability Score Application is a cross-platform employability testing product that provides the same core quiz experience through both mobile and browser-based interfaces.

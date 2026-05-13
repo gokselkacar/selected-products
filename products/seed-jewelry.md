@@ -6,6 +6,12 @@ Biodesign jewelry concept connecting biodegradable accessories with native seed 
 
 Seed Jewelry is a Vite and React marketing product for SeedRing, a biodegradable jewelry concept where a wearable piece carries native plant seeds and can later be buried to support a local biocorridor.
 
+## Product Screenshots
+
+| Homepage | Configurator | Science Section |
+| --- | --- | --- |
+| ![Seed Jewelry homepage hero](../assets/screenshots/seed-jewelry/01-home-hero.webp) | ![Seed Jewelry configurator](../assets/screenshots/seed-jewelry/02-configurator.webp) | ![Seed Jewelry science section](../assets/screenshots/seed-jewelry/03-science-section.webp) |
+
 ## Product Scope
 
 - Public-facing product experience for a biodesign jewelry concept.

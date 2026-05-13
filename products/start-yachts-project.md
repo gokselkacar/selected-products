@@ -6,6 +6,16 @@ Boat marketplace product with a web platform and supporting data pipeline.
 
 Start Yachts - Boat Marketplace combines scraping workflows, a Next.js frontend, backend Lambda APIs, and AWS CDK infrastructure to support a yacht-focused platform.
 
+## Product Screenshots
+
+| Homepage | Featured Inventory | Services |
+| --- | --- | --- |
+| ![Start Yachts homepage hero](../assets/screenshots/start-yachts-project/01-home-hero.webp) | ![Start Yachts featured inventory](../assets/screenshots/start-yachts-project/02-featured-inventory.webp) | ![Start Yachts services overview](../assets/screenshots/start-yachts-project/03-services-overview.webp) |
+
+| Boats For Sale | Service Categories |
+| --- | --- |
+| ![Start Yachts boats for sale page](../assets/screenshots/start-yachts-project/04-boats-for-sale.webp) | ![Start Yachts service categories](../assets/screenshots/start-yachts-project/05-service-categories.webp) |
+
 ## Product Scope
 
 - Marketplace-oriented product for boat and yacht listings.

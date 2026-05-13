@@ -18,6 +18,7 @@ This repository is the public product portfolio layer for work whose source code
 ## What Each Summary Covers
 
 - Product purpose and user problem.
+- Product screenshots or public demo links where available.
 - Main user flows and product capabilities.
 - Technical stack, architecture, and deployment shape.
 - My contribution across product, frontend, backend, data, cloud, and validation work.

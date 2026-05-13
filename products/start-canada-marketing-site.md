@@ -6,6 +6,12 @@ Production marketing website for START Canada.
 
 - Website: [startnew.ca](https://startnew.ca/)
 
+## Product Screenshots
+
+| Homepage | About START | Projects demo section |
+| --- | --- | --- |
+| ![START Canada homepage hero](../assets/screenshots/start-canada-marketing-site/01-home-hero.webp) | ![START Canada about section](../assets/screenshots/start-canada-marketing-site/02-about-start.webp) | ![START Canada projects page showing Employability Score demo](../assets/screenshots/start-canada-marketing-site/03-projects-employability-demo.webp) |
+
 ## Summary
 
 START Canada Marketing Site is a Next.js platform designed to present employability assessments, career bootcamps, and certification programs through a modern, responsive experience.

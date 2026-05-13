@@ -6,6 +6,12 @@ Live event and registration platform built for START Canada.
 
 - Website: [startjobs.ca](https://startjobs.ca/)
 
+## Product Screenshots
+
+| Events listing | Event detail |
+| --- | --- |
+| ![START Jobs events listing page](../assets/screenshots/start-jobs-career-readiness-events-platform/01-events-listing.webp) | ![START Jobs event detail page](../assets/screenshots/start-jobs-career-readiness-events-platform/02-event-detail.webp) |
+
 ## Summary
 
 START Jobs - Career Readiness Events Platform is a web application for managing career readiness bootcamps, webinars, and workshops, including registration, authentication, and email confirmations.

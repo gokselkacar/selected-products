@@ -6,6 +6,16 @@ Personal options research, screenshot analysis, scenario simulation, and paper-j
 
 Options Master is a private research product for studying options setups, comparing scenarios, recording broker evidence, and maintaining a paper-trading journal without placing live trades.
 
+## Product Screenshots
+
+| Dashboard | Company Research |
+| --- | --- |
+| ![Options Master dashboard](../assets/screenshots/options-master/01-dashboard.webp) | ![Options Master company research](../assets/screenshots/options-master/02-company-research.webp) |
+
+| Learning | AI Coach |
+| --- | --- |
+| ![Options Master learning page](../assets/screenshots/options-master/03-learning.webp) | ![Options Master AI coach page](../assets/screenshots/options-master/04-ai-coach.webp) |
+
 ## Product Scope
 
 - Research-only options workflow for learning, analysis, and journaling.
