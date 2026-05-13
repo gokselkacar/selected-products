@@ -2,6 +2,12 @@
 
 Career preparation product delivered across mobile and web.
 
+## Public Demo
+
+- Demo page: [startnew.ca/projects#employability-score](https://startnew.ca/projects#employability-score)
+
+The public demo page shows the product in context on the START Canada marketing site, including mobile app and web app preview videos. The source code remains private.
+
 ## Summary
 
 START Employability Score Application is a cross-platform employability testing product that provides the same core quiz experience through both mobile and browser-based interfaces.
@@ -66,6 +72,7 @@ START Employability Score Application is a cross-platform employability testing 
 - Results breakdowns across strengths, improvement areas, and topic-level performance.
 - Career alignment features including pathway recommendations and position matching.
 - Profile-level history, analytics, and document management support.
+- Public demo previews for the mobile and web experiences through the START Canada marketing site.
 
 ## Architecture Overview
 
