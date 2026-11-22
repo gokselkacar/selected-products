@@ -1,29 +1,22 @@
-# Selected Products
+# Selected products
 
-Public summaries of shipped products built and maintained in private repositories.
+Case studies for products I lead and build with AI coding agents. The source code is private, so each page shows the product, my role, what it does and how it is built.
 
-This repository is the public product portfolio layer for work whose source code is not exposed. Each product page explains the product scope, user experience, key flows, technical stack, architecture, contribution, and delivery notes without publishing private implementation details.
+How the work gets delivered is described in [how-i-work](https://github.com/gokselkacar/how-i-work).
+
+![START Employability Score Platform career dashboard](assets/screenshots/start-employability-score-application/01-web-career-dashboard.webp)
 
 ## Products
 
-| Product | Public link | Summary | Primary stack |
+| Product | What it is | Link | Stack |
 | --- | --- | --- | --- |
-| [START Canada Marketing Site](./products/start-canada-marketing-site.md) | [Live](https://startnew.ca/) | Marketing and lead-capture website for START Canada's programs | Next.js, React, TypeScript, TailwindCSS, API routes |
-| [START Jobs - Career Readiness Events Platform](./products/start-jobs-career-readiness-events-platform.md) | [Live](https://startjobs.ca/) | Event discovery, registration, authentication, and admin workflow platform | PHP, JavaScript, TailwindCSS, MySQL / MariaDB, Apache |
-| [START Employability Score Application](./products/start-employability-score-application.md) | [Demo](https://startnew.ca/projects#employability-score) | Cross-platform employability testing app for mobile and web | Expo, React Native, Next.js, AWS AppSync, Cognito, Lambda, PostgreSQL |
-| [Start Yachts - Boat Marketplace](./products/start-yachts-project.md) | Private product summary | Marketplace platform combining listings, ingestion workflows, backend APIs, and AWS infrastructure | Next.js, TypeScript, AWS Lambda, AWS CDK, scraping pipelines |
-| [Options Master](./products/options-master.md) | Private product summary | Options research, scenario simulation, screenshot analysis, and paper-journal product | Next.js, React, TypeScript, Better SQLite3, Tesseract.js, Vitest |
-| [Seed Jewelry](./products/seed-jewelry.md) | Private product summary | Biodesign jewelry concept with a configurator, planting map, and waitlist flow | Vite, React, Leaflet, CSS, Playwright |
+| [START Employability Score Platform](products/start-employability-score-application.md) | Career-readiness assessments, an Employability Score and AI career tools on web and mobile, with a branded portal for institutions | [Product page](https://startnew.ca/platform/assessments-employability-score) | React Native, Expo, Next.js, TypeScript, GraphQL, AWS, PostgreSQL |
+| [START Jobs](products/start-jobs-career-readiness-events-platform.md) | Event discovery and registration for career-readiness bootcamps and workshops | [startjobs.ca](https://startjobs.ca/) | PHP, JavaScript, TailwindCSS, MySQL |
+| [Start Yachts](products/start-yachts-project.md) | Boat and yacht marketplace with broker listings and marine services | [startyachts.com](https://www.startyachts.com/) | Next.js, TypeScript, AWS, PostgreSQL |
+| [START Canada Marketing Site](products/start-canada-marketing-site.md) | Public site that presents the platform to learners, institutions and employers | [startnew.ca](https://startnew.ca/) | Next.js, React, TypeScript, TailwindCSS |
+| [Options Master](products/options-master.md) | Personal options-research and paper-journal tool. No trade execution | Private | Next.js, TypeScript, SQLite, Tesseract.js |
+| [Seed Jewelry](products/seed-jewelry.md) | Product concept for biodegradable jewelry with a configurator and planting map | Private | Vite, React, Leaflet |
 
-## What Each Summary Covers
+## About the screenshots
 
-- Product purpose and user problem.
-- Product screenshots or public demo links where available.
-- Main user flows and product capabilities.
-- Technical stack, architecture, and deployment shape.
-- My contribution across product, frontend, backend, data, cloud, and validation work.
-- Private repository note so readers understand why source code is not public.
-
-## Repository Note
-
-The source code for these products is maintained in private repositories. This repository is intentionally limited to public-facing product summaries and links.
+Screens of the Employability Score Platform come from the public product films and show a demo account. Screens of the live sites were taken in November 2026.

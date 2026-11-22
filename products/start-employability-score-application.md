@@ -1,137 +1,82 @@
-# START Employability Score Application
+# START Employability Score Platform
 
-Career preparation product delivered across mobile and web.
+A career-readiness product for web and mobile. Learners take assessments for the job they want, get an Employability Score, and use AI career tools to close their gaps. Colleges and training providers get their own branded portal and an admin dashboard.
 
-## Public Demo
+- Product pages: [Assessments and Employability Score](https://startnew.ca/platform/assessments-employability-score), [START Coach](https://startnew.ca/platform/start-coach), [For institutions](https://startnew.ca/institutions)
+- Company: StartNew Technologies
+- Source: private repository
 
-- Demo page: [startnew.ca/projects#employability-score](https://startnew.ca/projects#employability-score)
+All screens below come from the public product films and show a demo account.
 
-The public demo page shows the product in context on the START Canada marketing site, including mobile app and web app preview videos. The source code remains private.
+## The problem
 
-## Product Screenshots
+A learner preparing for a job rarely knows how far they are from being ready for it, or what to work on first. A college has the same question about a whole cohort. The platform answers both with one set of role-based assessments.
 
-### Web Application
+## My role
 
-| Home | Activity Dashboard | Career Dashboard |
+I lead the product: priorities, requirements, user journeys and UX for learners, institutions and administrators. I direct its development with AI coding agents across web, mobile and backend, review architecture and data-flow choices, and check the result against the acceptance criteria. The method is described in [how-i-work](https://github.com/gokselkacar/how-i-work).
+
+I also directed the AI-assisted curation of the assessment content, more than 10,000 questions, including quality checks, cleaning and integration testing.
+
+## Learner experience on the web
+
+| Career dashboard | Career pulse | Practice question |
 | --- | --- | --- |
-| ![START web app home screen](../assets/screenshots/start-employability-score-application/01-web-home.webp) | ![START web activity dashboard](../assets/screenshots/start-employability-score-application/02-web-activity-dashboard.webp) | ![START web career dashboard](../assets/screenshots/start-employability-score-application/03-web-career-dashboard.webp) |
+| ![Career dashboard with role match and scores](../assets/screenshots/start-employability-score-application/01-web-career-dashboard.webp) | ![Career pulse for the best-matched role](../assets/screenshots/start-employability-score-application/02-web-career-pulse.webp) | ![A timed practice question](../assets/screenshots/start-employability-score-application/03-web-practice-question.webp) |
 
-| Event Hub | Assessment Categories | Role Skill Path |
+| Practice result | Weekly action board | Career tools |
 | --- | --- | --- |
-| ![START web event hub](../assets/screenshots/start-employability-score-application/04-web-event-hub.webp) | ![START web assessment categories](../assets/screenshots/start-employability-score-application/05-web-assessment-categories.webp) | ![START web role skill path](../assets/screenshots/start-employability-score-application/06-web-role-skills.webp) |
+| ![Practice result with score and feedback](../assets/screenshots/start-employability-score-application/04-web-practice-result.webp) | ![Weekly action board with three tasks](../assets/screenshots/start-employability-score-application/05-web-weekly-action-board.webp) | ![Career tools menu](../assets/screenshots/start-employability-score-application/06-web-career-tools.webp) |
 
-### Mobile Application
+## START Coach, the AI career tools
 
-| Home | Event Hub | Activity | Business | Technology |
-| --- | --- | --- | --- | --- |
-| <img src="../assets/screenshots/start-employability-score-application/07-mobile-home.webp" alt="START mobile home screen" width="170"> | <img src="../assets/screenshots/start-employability-score-application/08-mobile-event-hub.webp" alt="START mobile event hub" width="170"> | <img src="../assets/screenshots/start-employability-score-application/09-mobile-activity-dashboard.webp" alt="START mobile activity dashboard" width="170"> | <img src="../assets/screenshots/start-employability-score-application/10-mobile-business-assessments.webp" alt="START mobile business assessments" width="170"> | <img src="../assets/screenshots/start-employability-score-application/11-mobile-technology-roles.webp" alt="START mobile technology roles" width="170"> |
+| Coach chat | Interview Simulator |
+| --- | --- |
+| ![START Coach chat giving a four-week plan](../assets/screenshots/start-employability-score-application/07-web-coach-chat.webp) | ![Interview Simulator feedback on an answer](../assets/screenshots/start-employability-score-application/08-web-interview-simulator.webp) |
 
-## Summary
+| Resume Optimizer | Role Matcher |
+| --- | --- |
+| ![Resume Optimizer with an ATS score and priority fixes](../assets/screenshots/start-employability-score-application/09-web-resume-optimizer.webp) | ![Role Matcher ranking best-fit roles](../assets/screenshots/start-employability-score-application/10-web-role-matcher.webp) |
 
-START Employability Score Application is a cross-platform employability testing product that provides the same core quiz experience through both mobile and browser-based interfaces.
+## Institution portal
 
-## Product Scope
+| Branded sign-in | Assessment analytics | Role readiness |
+| --- | --- | --- |
+| ![Sign-in page branded for a demo college](../assets/screenshots/start-employability-score-application/11-institution-portal.webp) | ![Admin view of scores and completions](../assets/screenshots/start-employability-score-application/12-institution-assessments.webp) | ![Admin view of role readiness and skill gaps](../assets/screenshots/start-employability-score-application/13-institution-readiness.webp) |
 
-- Cross-platform assessment product spanning mobile and web surfaces.
-- Focused on employability measurement, skill discovery, and career readiness guidance.
-- Designed to unify testing, progress tracking, and career-oriented recommendations in one system.
+## Mobile app
 
-## Platform Surfaces
+| Home | Explore roles | Choose a level | Question | Result | Action board |
+| --- | --- | --- | --- | --- | --- |
+| <img src="../assets/screenshots/start-employability-score-application/14-mobile-home.webp" alt="Mobile home screen" width="150"> | <img src="../assets/screenshots/start-employability-score-application/15-mobile-explore-roles.webp" alt="Mobile role explorer" width="150"> | <img src="../assets/screenshots/start-employability-score-application/16-mobile-select-level.webp" alt="Mobile level picker" width="150"> | <img src="../assets/screenshots/start-employability-score-application/17-mobile-question.webp" alt="Mobile practice question" width="150"> | <img src="../assets/screenshots/start-employability-score-application/18-mobile-result.webp" alt="Mobile practice result" width="150"> | <img src="../assets/screenshots/start-employability-score-application/19-mobile-action-board.webp" alt="Mobile weekly action board" width="150"> |
 
-- Mobile application for iOS and Android through Expo / React Native.
-- Web application for browser-based access through Next.js.
-- Shared backend infrastructure and taxonomy model across both clients.
+## What it does
 
-## User Experience
+- **Role-based assessments.** A learner picks a job title, sees the skill areas it needs, and practises each one at junior, intermediate or expert level, or takes a level assessment.
+- **Employability Score.** Results roll up into a score for the target role, with strengths, gaps and the next thing to practise.
+- **START Coach.** Coach chat, Role Matcher, Resume Optimizer, Interview Simulator and a growth roadmap, all working from the learner's own results and profile.
+- **Institution portal.** A college gets a sign-in page with its own name and look, and staff follow cohort progress, role readiness and skill gaps, and export reports.
+- **Same product on both platforms.** The mobile app and the web app share the backend, the assessment content and the scoring.
 
-- Multi-step onboarding and authentication flows, including social sign-in support.
-- Guided assessment journeys across trivia, soft skills, business, and technology categories.
-- Timed quiz sessions with progress tracking, resume support, and results analysis.
-- Career-facing dashboard features such as attempt history, performance review, and recommendation flows.
+## How it is built
 
-## Key Flows
-
-- Onboarding and authentication flow across native and web clients.
-- Assessment flow from category selection through timed quiz play and scored results.
-- Results and analytics flow turning performance into strengths, gaps, and next-step guidance.
-- Career support flow connecting assessment outcomes to recommendations, dashboards, and supporting documents.
-
-## My Contribution
-
-- Contributed to product and technical direction across the shared application experience.
-- Supported delivery of the mobile and web surfaces with aligned quiz functionality.
-- Worked within an AWS-backed architecture serving both application clients.
-- Helped shape a product flow focused on employability assessment and career readiness.
-
-## Stack
-
-- React Native
-- Expo
-- Next.js
-- React
-- TypeScript
-- AWS Cognito
-- AWS AppSync
-- AWS Lambda
-- PostgreSQL
-- S3 and CloudFront
-- AWS CDK
-
-## Technical Focus
-
-- Shared product model across mobile and web so assessment behavior stays aligned between clients.
-- GraphQL API layer for quiz, profile, taxonomy, analytics, and document workflows.
-- Cognito-backed authentication with cloud storage for user files and supporting assets.
-- CDK-managed infrastructure for repeatable environment setup and deployment.
-
-## Product Capabilities
-
-- Difficulty-aware assessment flows including mixed-difficulty "Test My Level" experiences.
-- Results breakdowns across strengths, improvement areas, and topic-level performance.
-- Career alignment features including pathway recommendations and position matching.
-- Profile-level history, analytics, and document management support.
-- Public demo previews for the mobile and web experiences through the START Canada marketing site.
-
-## Architecture Overview
-
-- React Native mobile app and Next.js web app operating from the same product ecosystem.
-- AWS-backed stack using Cognito, AppSync, Lambda, PostgreSQL, S3, and CloudFront.
-- Shared monorepo architecture with common UI and taxonomy packages.
-- Infrastructure managed through AWS CDK with application data flowing through GraphQL APIs.
-
-## Architecture Diagram
+React Native with Expo for mobile, Next.js for web, and a shared TypeScript monorepo. The backend is a GraphQL API on AWS with serverless functions and PostgreSQL, defined as infrastructure code.
 
 ```mermaid
 flowchart TD
-    U[Users] --> M[Mobile App]
-    U --> W[Web App]
-    M --> G[AppSync GraphQL API]
+    U[Learners and institution staff] --> M[Mobile app]
+    U --> W[Web app]
+    M --> G[GraphQL API]
     W --> G
-    G --> L[Lambda Resolvers]
-    G --> I[Cognito Authentication]
-    L --> D[(PostgreSQL)]
-    L --> S[S3 and CloudFront]
-    L --> N[Messaging and Notification Services]
+    G --> A[Authentication]
+    G --> F[Serverless functions]
+    F --> D[(PostgreSQL)]
+    F --> S[File storage]
+    F --> L[LLM services for coaching tools]
 ```
 
-## Why This Architecture
+Mobile and web share one backend so an assessment behaves the same on both, and a learner can start on the phone and finish on the web.
 
-- A shared backend and monorepo structure keeps product logic aligned across mobile and web.
-- GraphQL and shared domain packages reduce duplication across quiz, profile, and analytics experiences.
-- AWS-managed building blocks support secure auth, file handling, notifications, and scalable assessment delivery.
+## Repository note
 
-## Highlights
-
-- Cross-platform delivery through mobile and web applications.
-- Shared product logic and aligned user experience across clients.
-- Career assessment workflow focused on employability testing.
-
-## Delivery Notes
-
-- Built as a true product platform rather than a one-off assessment tool.
-- Designed around long-term user progression, repeat usage, and cross-device continuity.
-- Structured to support ongoing quiz expansion, taxonomy growth, and product iteration over time.
-
-## Repository Note
-
-The source code for this product is maintained in a private repository. This page is a public product summary.
+The source code is in a private repository. This page is a public summary.

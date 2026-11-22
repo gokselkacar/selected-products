@@ -1,114 +1,49 @@
-# Start Yachts - Boat Marketplace
+# Start Yachts
 
-Boat marketplace product with a web platform and supporting data pipeline.
+A boat and yacht marketplace. Buyers browse listings from licensed brokers, open a listing with its photos and specifications, and contact the broker. Owners find marine services matched to their boat.
 
-## Summary
+- Live site: [startyachts.com](https://www.startyachts.com/)
+- Company: StartNew Technologies
+- Source: private repository
 
-Start Yachts - Boat Marketplace combines scraping workflows, a Next.js frontend, backend Lambda APIs, and AWS CDK infrastructure to support a yacht-focused platform.
+## The problem
 
-## Product Screenshots
+Yacht listings are spread across many broker sites with different layouts and detail. Start Yachts puts them in one searchable catalogue with a consistent listing page, and adds a route to the services an owner needs after buying.
 
-| Homepage | Featured Inventory | Services |
+## My role
+
+I lead the product and direct its development with AI coding agents across the web app, the backend services, the listing data pipeline and the cloud infrastructure. It is a separate product from the START career-readiness platform, built with the same delivery method, described in [how-i-work](https://github.com/gokselkacar/how-i-work).
+
+## Screens
+
+| Home | Featured inventory | Services on the home page |
 | --- | --- | --- |
-| ![Start Yachts homepage hero](../assets/screenshots/start-yachts-project/01-home-hero.webp) | ![Start Yachts featured inventory](../assets/screenshots/start-yachts-project/02-featured-inventory.webp) | ![Start Yachts services overview](../assets/screenshots/start-yachts-project/03-services-overview.webp) |
+| ![Start Yachts home page](../assets/screenshots/start-yachts-project/01-home-hero.webp) | ![Featured inventory cards](../assets/screenshots/start-yachts-project/02-home-featured.webp) | ![Marine services section](../assets/screenshots/start-yachts-project/03-home-services.webp) |
 
-| Boats For Sale | Service Categories |
-| --- | --- |
-| ![Start Yachts boats for sale page](../assets/screenshots/start-yachts-project/04-boats-for-sale.webp) | ![Start Yachts service categories](../assets/screenshots/start-yachts-project/05-service-categories.webp) |
+| Boats for sale | Marine services | Listing detail |
+| --- | --- | --- |
+| ![Inventory page with search and filters](../assets/screenshots/start-yachts-project/04-inventory.webp) | ![Marine services page](../assets/screenshots/start-yachts-project/05-services.webp) | ![Listing page with photo gallery and price](../assets/screenshots/start-yachts-project/06-listing.webp) |
 
-| Listing Photos | Broker Contact Flow |
-| --- | --- |
-| ![Start Yachts listing photo gallery](../assets/screenshots/start-yachts-project/06-listing-photo-gallery.webp) | ![Start Yachts listing broker contact flow](../assets/screenshots/start-yachts-project/07-listing-broker-contact.webp) |
+## What it does
 
-## Product Scope
+- **Inventory search.** Filter by boat type, location, condition, length and price, with featured and recently listed views.
+- **Listing pages.** Photo gallery, overview, description and specifications in one layout for every boat.
+- **Broker contact.** A contact form and an offer option on each listing, sent to the listing broker.
+- **Marine services.** Service categories and a request form that helps an owner define the job and reach the right specialist.
 
-- Marketplace-oriented product for boat and yacht listings.
-- Combines listing ingestion, application delivery, and infrastructure automation in one system.
-- Built to support an inventory-driven browsing experience backed by cloud services.
+## How it is built
 
-## Product Experience
-
-- Web-based listing experience delivered through a Next.js frontend.
-- Marketplace-style platform architecture connecting listing data, media delivery, and application routes.
-- Unified dashboard direction on the frontend rather than separate legacy buyer / seller interfaces.
-
-## Key Flows
-
-- Listing ingestion flow from scrapers into structured marketplace data.
-- Marketplace browsing flow from listing discovery to detail consumption in the web app.
-- Application flow from frontend requests into serverless APIs and backend data services.
-- Environment and release flow through infrastructure-managed deployment paths.
-
-## My Contribution
-
-- Worked across frontend, backend, and infrastructure layers of the platform.
-- Supported the active Next.js application and associated backend services.
-- Contributed to data ingestion through scraper tooling and structured output workflows.
-- Helped manage AWS infrastructure through CDK-based deployment definitions.
-
-## Stack
-
-- Next.js
-- React
-- TypeScript
-- AWS Lambda
-- AWS CDK
-- PostgreSQL
-- S3 and CloudFront
-- Data scraping pipelines
-
-## Technical Focus
-
-- Connects listing ingestion, application routes, backend APIs, and infrastructure in one product architecture.
-- Uses serverless services for API behavior while keeping deployment and environment setup managed through CDK.
-- Separates scraping and data-shaping workflows from the frontend marketplace experience.
-- Supports staged operational workflows for development, verification, and release.
-
-## Product Capabilities
-
-- Scraper-driven listing ingestion workflows feeding structured marketplace data.
-- Serverless backend services for API and supporting business logic.
-- Infrastructure-as-code deployment model for repeatable environment management.
-- Documentation and operational playbooks supporting deployment and release flow.
-
-## Architecture Overview
-
-- Next.js frontend in front of AWS-backed APIs and media infrastructure.
-- Lambda-based backend services and database tooling for marketplace operations.
-- CDK-managed infrastructure spanning application, backend, and environment setup.
-- Data pipeline layer for collecting and shaping listing information before presentation.
-
-## Architecture Diagram
+A Next.js and TypeScript web app, serverless backend services on AWS, PostgreSQL, and media served through a content delivery network. The infrastructure is defined as code.
 
 ```mermaid
 flowchart TD
-    S[Listing Scrapers] --> P[Structured Listing Data]
-    P --> W[Next.js Marketplace Frontend]
-    W --> A[Serverless API Layer]
-    A --> D[(Marketplace Database)]
-    A --> M[Media and Asset Delivery]
-    A --> I[Authentication Services]
-    A --> C[CDK Managed Infrastructure]
+    U[Buyers and owners] --> W[Next.js web app]
+    W --> A[Serverless API]
+    A --> D[(PostgreSQL)]
+    A --> M[Media storage and delivery]
+    P[Listing data pipeline] --> D
 ```
 
-## Why This Architecture
+## Repository note
 
-- The marketplace depends on both application delivery and reliable listing ingestion, so the stack needs more than a standalone frontend.
-- Serverless backend services keep the API layer flexible while infrastructure-as-code keeps environment setup repeatable.
-- Separating ingestion, application, and infrastructure concerns makes it easier to evolve search, media, and release workflows over time.
-
-## Highlights
-
-- End-to-end architecture spanning data collection, application delivery, and cloud infrastructure.
-- Serverless backend services alongside a modern web frontend.
-- Operational documentation and project playbooks supporting ongoing delivery.
-
-## Delivery Notes
-
-- Built with a full-stack product mindset rather than only a frontend marketplace shell.
-- Development flow supports environment-based deployment and staged release operations.
-- The product combines ingestion, application delivery, and infra ownership inside one codebase.
-
-## Repository Note
-
-The source code for this product is maintained in a private repository. This page is a public product summary.
+The source code is in a private repository. This page is a public summary.

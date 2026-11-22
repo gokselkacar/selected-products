@@ -1,98 +1,49 @@
 # START Canada Marketing Site
 
-Production marketing website for START Canada.
+The public website for START Canada. It explains the platform to learners, institutions and employers, shows the product in short films, and routes enquiries to the right place.
 
-## Live Product
+- Live site: [startnew.ca](https://startnew.ca/)
+- Company: StartNew Technologies
+- Source: private repository
 
-- Website: [startnew.ca](https://startnew.ca/)
+## The problem
 
-## Product Screenshots
+START sells one platform to several audiences who care about different things. A learner wants to know what the score tells them. A college wants to know what its staff will see. The site gives each audience its own page and shows real product screens on a demo account.
 
-| Homepage | About START | Projects demo section |
+## My role
+
+I lead the site's content structure and product presentation and direct its development with AI coding agents. I also directed the product films shown on the platform pages, which are recorded from the real product. The method is described in [how-i-work](https://github.com/gokselkacar/how-i-work).
+
+## Screens
+
+| Home | About START | Platform overview |
 | --- | --- | --- |
-| ![START Canada homepage hero](../assets/screenshots/start-canada-marketing-site/01-home-hero.webp) | ![START Canada about section](../assets/screenshots/start-canada-marketing-site/02-about-start.webp) | ![START Canada projects page showing Employability Score demo](../assets/screenshots/start-canada-marketing-site/03-projects-employability-demo.webp) |
+| ![START Canada home page](../assets/screenshots/start-canada-marketing-site/01-home-hero.webp) | ![About START section](../assets/screenshots/start-canada-marketing-site/02-home-about.webp) | ![Platform overview page](../assets/screenshots/start-canada-marketing-site/03-platform.webp) |
 
-## Summary
+| Assessments and Employability Score | START Coach | For institutions |
+| --- | --- | --- |
+| ![Employability Score page with product films](../assets/screenshots/start-canada-marketing-site/04-employability-score.webp) | ![START Coach page](../assets/screenshots/start-canada-marketing-site/05-start-coach.webp) | ![Institutions page with an admin portal film](../assets/screenshots/start-canada-marketing-site/06-institutions.webp) |
 
-START Canada Marketing Site is a Next.js platform designed to present employability assessments, career bootcamps, and certification programs through a modern, responsive experience.
+## What it does
 
-## Product Scope
+- **Audience pages.** Separate pages for the platform, each product area, institutions, employers and high schools.
+- **Product films.** Short films on each product page, recorded on a demo account.
+- **Contact routing.** A contact form that sends each enquiry by purpose, plus newsletter and support flows.
+- **Content.** A blog and a gallery managed as files in the repository, with no separate content system to run.
 
-- Public-facing marketing website for START Canada's programs and brand story.
-- Multi-page experience covering products, gallery content, contact flows, and policy pages.
-- Content-oriented platform built to support program discovery and lead generation.
+## How it is built
 
-## User Experience
-
-- Home page with hero messaging, proof points, audience targeting, and product positioning.
-- Projects page with structured navigation across employability score, bootcamp, and certification offerings.
-- Gallery experience with category filters and lightbox interactions.
-- Contact journey with purpose-based routing and support / newsletter flows.
-
-## Key Flows
-
-- Program discovery flow from landing page to product-specific content and proof points.
-- Contact flow from intent selection to validated form submission and routed follow-up.
-- Newsletter and support flows through modal and page-level entry points.
-- Gallery browsing flow with filtered exploration of events, partners, and product content.
-
-## My Contribution
-
-- Built and structured the application using the Next.js App Router and TypeScript.
-- Implemented reusable UI components, responsive navigation, and branded presentation layers.
-- Added contact, newsletter, support, and health API routes with validation and rate limiting.
-- Supported content publishing through MDX and gallery manifests.
-
-## Stack
-
-- Next.js
-- React
-- TypeScript
-- TailwindCSS
-- Zod
-- Nodemailer
-- Playwright
-- Docker
-
-## Product Capabilities
-
-- Responsive navigation with desktop and mobile-specific interaction patterns.
-- File-based blog and gallery content workflows for easier ongoing updates.
-- Contact, newsletter, and support submission flows with validation and abuse protection.
-- Placeholder-aware image system designed to allow staged content rollout without broken layouts.
-
-## Architecture Overview
-
-- Next.js App Router frontend with reusable component-driven page structure.
-- Lightweight API route layer for contact, newsletter, support, and health endpoints.
-- File-based content management using MDX and JSON manifests instead of a CMS dependency.
-- Docker and Nginx-ready deployment setup for consistent production delivery.
-
-## Architecture Diagram
+Next.js with the App Router, React, TypeScript and TailwindCSS. Forms post to a small API layer with validation and rate limiting. Blog posts are MDX files.
 
 ```mermaid
 flowchart TD
-    U[Visitor Browser] --> P[Next.js Pages and React Components]
-    P --> A[API Routes]
-    P --> C[MDX and JSON Content]
-    A --> V[Validation and Rate Limiting]
-    A --> E[Email Delivery Service]
-    C --> G[Blog and Gallery Content]
+    U[Visitor] --> P[Next.js pages]
+    P --> C[MDX and JSON content]
+    P --> A[API routes]
+    A --> V[Validation and rate limiting]
+    A --> E[Email delivery]
 ```
 
-## Highlights
+## Repository note
 
-- Multi-page marketing experience with projects, gallery, contact, privacy, and terms pages.
-- Form handling with validation, sanitization, honeypot checks, and rate limiting.
-- File-based content workflows for blog and gallery management.
-- Production-oriented deployment setup with Docker and Nginx support.
-
-## Delivery Notes
-
-- Built with a strong emphasis on responsiveness, accessibility, and maintainable content updates.
-- Structured to support staged media rollout with placeholders before final brand assets are published.
-- Designed to operate as both a marketing layer and a reliable lead capture surface.
-
-## Repository Note
-
-The source code for this product is maintained in a private repository. This page is a public product summary.
+The source code is in a private repository. This page is a public summary.
